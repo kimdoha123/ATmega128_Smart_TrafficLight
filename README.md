@@ -28,8 +28,8 @@ stateDiagram-v2
     RED_YELLOW --> GREEN_RED: 버튼 입력 (Ctrl)
     GREEN_RED --> YELLOW_RED: 버튼 입력 (Ctrl)
     YELLOW_RED --> RED_GREEN: 버튼 입력 (Ctrl)
-    AUTO --> RED_GREEN
-    RED_GREEN --> RED_YELLOW: 타이머
+   
+	RED_GREEN --> RED_YELLOW: 타이머
     RED_YELLOW --> GREEN_RED: 타이머
     GREEN_RED --> YELLOW_RED: 타이머
     YELLOW_RED --> RED_GREEN: 타이머
