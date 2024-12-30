@@ -21,7 +21,6 @@ FSM(Finite State Machine)기반, LED를 통해 신호 상태 표시
 
 ```mermaid
 stateDiagram-v2
-    [*] --> OFF
     OFF --> MANUAL: 버튼 입력 (Manual)
     OFF --> AUTO: 버튼 입력 (Auto)
     MANUAL --> RED_GREEN: 버튼 입력 (Ctrl)
