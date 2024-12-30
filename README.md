@@ -1,5 +1,3 @@
-# ATmega128_Smart_TrafficLight
-
 # 🚦 ATmega128 Smart Traffic Light
 
 ## 📌 프로젝트 개요
